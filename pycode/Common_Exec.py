@@ -103,5 +103,5 @@ if __name__ == "__main__":
     robotTestCase = "test_GetAccount"
     robotTestSuite = r"D:/Officel/RFprojects/http_interface_auto/rfcode/batch_Request.txt"
     testScene = "GetAccount"
-    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData1.xlsx"
+    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData.xlsx"
     testCaseReportPath = "D:\\Officel\\RFprojects\\http_interface_auto\\report\\TestCaseReport"
