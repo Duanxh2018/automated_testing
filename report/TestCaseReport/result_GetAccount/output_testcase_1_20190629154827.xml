@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190629 15:48:27.629" generator="Robot 2.8.7 (Python 2.7.16 on win32)">
+<suite source="D:\Officel\RFprojects\http_interface_auto\rfcode\http_Request.txt" id="s1" name="http Request">
+<test id="s1-t1" name="sendHttpRequest">
+<kw type="kw" name="${method}, ${url}, ${CaseNo}, ${testName}, ${data}, ${expectCode}, ${expectCotent} = Common_Excel.Get Test Data">
+<doc>从excel中获取测试数据</doc>
+<arguments>
+<arg>${testDataFile}</arg>
+<arg>${testScene}</arg>
+<arg>${Host}</arg>
+<arg>${CaseNo}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${method} = post</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${url} = http://192.168.1.13:8093</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${CaseNo} = 1.0</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${testName} = 正向用例_链ID存在，地址符合规则，请求方法正确_1.0</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${data} = {
+ "method": "GetAccount",
+ "params": {"chainId":"3", "address":"0x2c7536e3605d9c16a7a3d7b1898e529396a65c23"}
+}</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${expectCode} = 200</msg>
+<msg timestamp="20190629 15:48:28.220" level="INFO">${expectCotent} = {"address":"0x2c7536e3605d9c16a7a3d7b1898e529396a65c23","balance":1.000000000004e+27,"codeHash":null,"nonce":5,"storageRoot":null}</msg>
+<status status="PASS" endtime="20190629 15:48:28.219" starttime="20190629 15:48:28.091"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Set Test Documentation">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${testName}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.221" level="INFO">Set test documentation to:
+正向用例_链ID存在，地址符合规则，请求方法正确_1.0</msg>
+<status status="PASS" endtime="20190629 15:48:28.221" starttime="20190629 15:48:28.221"></status>
+</kw>
+<kw type="kw" name="${headers} = 自定义关键字.获取请求头">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="${dict_headers} = Collections.Create Dictionary">
+<doc>Creates and returns a dictionary based on given items.</doc>
+<arguments>
+<arg>Host=${Host}</arg>
+<arg>Content-Type=${Content-Type}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.223" level="INFO">${dict_headers} = {'Host': u'192.168.1.13:8093', 'Content-Type': u'application/json'}</msg>
+<status status="PASS" endtime="20190629 15:48:28.223" starttime="20190629 15:48:28.222"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Return From Keyword">
+<doc>Returns from the enclosing user keyword.</doc>
+<arguments>
+<arg>${dict_headers}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.223" level="INFO">Returning from the enclosing user keyword.</msg>
+<status status="PASS" endtime="20190629 15:48:28.224" starttime="20190629 15:48:28.223"></status>
+</kw>
+<msg timestamp="20190629 15:48:28.224" level="INFO">${headers} = {'Host': u'192.168.1.13:8093', 'Content-Type': u'application/json'}</msg>
+<status status="PASS" endtime="20190629 15:48:28.224" starttime="20190629 15:48:28.221"></status>
+</kw>
+<kw type="kw" name="${actualCode}, ${actualContent} = Common_Exec.Send HttpRequest">
+<doc>发送http请求</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${data}</arg>
+<arg>${headers}</arg>
+<arg>${method}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.308" level="INFO">${actualCode} = 200</msg>
+<msg timestamp="20190629 15:48:28.308" level="INFO">${actualContent} = {"address":"0x2c7536e3605d9c16a7a3d7b1898e529396a65c23","balance":1.000000000004e+27,"codeHash":null,"nonce":5,"storageRoot":null}</msg>
+<status status="PASS" endtime="20190629 15:48:28.308" starttime="20190629 15:48:28.224"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${actualCode}</arg>
+<arg>${expectCode}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.309" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20190629 15:48:28.309" starttime="20190629 15:48:28.308"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${actualContent}</arg>
+<arg>${expectCotent}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:28.310" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20190629 15:48:28.310" starttime="20190629 15:48:28.310"></status>
+</kw>
+<doc>正向用例_链ID存在，地址符合规则，请求方法正确_1.0</doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20190629 15:48:28.310" critical="yes" starttime="20190629 15:48:28.090"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20190629 15:48:28.311" starttime="20190629 15:48:27.630"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="http Request">http Request</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

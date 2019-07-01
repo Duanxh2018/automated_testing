@@ -3,180 +3,165 @@ Library           ../pycode/Common_Exec.py
 Resource          关键字/关键字index.txt
 Resource          配置信息/configIndex.txt
 Library           ../pycode/Common_Excel.py
+Library           RequestsLibrary
+Library           Collections
+Library           HttpLibrary
+Library           json
+Library           HttpLibrary.HTTP
 
 *** Test Cases ***
-test_getCatesBySecondId
-    [Documentation]    sceneName: 根据二级类获取其下售卖的类别类目信息
+test_GetAccount
+    [Documentation]    sceneName: GetAccount
     ...
-    ...    path: /cpc/jz/channel/getCatesBySecondId
+    ...    path:
     ...
-    ...    method: get
-    [Tags]    getCatesBySecondId
+    ...    method: post
+    [Tags]    getAccountinfo
     # 测试场景
-    ${testScene}    Set Variable    getCatesBySecondId
+    ${testScene}    Set Variable    GetAccount
     # 执行测试
     执行测试    ${testScene}
 
-test_getAreasByCityId
-    [Documentation]    sceneName: 获取本城市信息
+test_SendTx
+    [Documentation]    sceneName: SendTx
     ...
-    ...    path: /cpc/jz/channel/getAreasByCityId
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getCatesBySecondId
+    ...    method: post
+    [Tags]    sendtransactioninfo
     # 测试场景
-    ${testScene}    Set Variable    getAreasByCityId
+    ${testScene}    Set Variable    SendTx
     # 执行测试
     执行测试    ${testScene}
 
-test_getFisrtCates
-    [Documentation]    sceneName: 获取所有售卖一级类
+test_GetTransactionByHash
+    [Documentation]    sceneName: GetTransactionByHash
     ...
-    ...    path: /cpc/jz/channel/getFisrtCates
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getFisrtCates
+    ...    method: post
+    [Tags]    gettransactionstatus
     # 测试场景
-    ${testScene}    Set Variable    getFisrtCates
+    ${testScene}    Set Variable    GetTransactionByHash
     # 执行测试
     执行测试    ${testScene}
 
-test_getSecondCatesByFirstCateId
-    [Documentation]    sceneName: 获取通过一级类获取二级类信息
+test_CallTransaction
+    [Documentation]    sceneName: CallTransaction
     ...
-    ...    path: /cpc/jz/channel/getSecondCatesByFirstCateId
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getSecondCatesByFirstCateId
+    ...    method: post
+    [Tags]    calltransaction
     # 测试场景
-    ${testScene}    Set Variable    getSecondCatesByFirstCateId
+    ${testScene}    Set Variable    CallTransaction
     # 执行测试
     执行测试    ${testScene}
 
-test_getCreativeInfo
-    [Documentation]    sceneName: 查询创意信息
+test_GetBlockHeader
+    [Documentation]    sceneName: GetBlockHeader
     ...
-    ...    path: /cpc/jz/creative/get
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getCreativeInfo
+    ...    method: post
+    [Tags]    getBlockheaderinfo
     # 测试场景
-    ${testScene}    Set Variable    getCreativeInfo
+    ${testScene}    Set Variable    GetBlockHeader
     # 执行测试
     执行测试    ${testScene}
 
-test_updateCreativeInfo
-    [Documentation]    sceneName: 更新创意
+test_GetBlockTxs
+    [Documentation]    sceneName: GetBlockTxs
     ...
-    ...    path: /cpc/jz/creative/update
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    updateCreativeInfo
+    ...    method: post
+    [Tags]    getBlocktransactions
     # 测试场景
-    ${testScene}    Set Variable    updateCreativeInfo
+    ${testScene}    Set Variable    GetBlockTxs
     # 执行测试
     执行测试    ${testScene}
 
-test_getUserStat
-    [Documentation]    sceneName: 获取用户历史推广总效果数据
+test_CompileContract
+    [Documentation]    sceneName: CompileContract
     ...
-    ...    path: /cpc/stat/getUserStat
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getUserStat
+    ...    method: post
+    [Tags]    compilecontract
     # 测试场景
-    ${testScene}    Set Variable    getUserStat
+    ${testScene}    Set Variable    CompileContract
     # 执行测试
     执行测试    ${testScene}
 
-test_getStat
-    [Documentation]    sceneName: 获取推广的效果数据
+test_GetContract
+    [Documentation]    sceneName: GetContract
     ...
-    ...    path: /cpc/stat/getStat
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    getStat
+    ...    method: post
+    [Tags]    getcontract
     # 测试场景
-    ${testScene}    Set Variable    getStat
+    ${testScene}    Set Variable    GetContract
     # 执行测试
     执行测试    ${testScene}
 
-test_updateBid
-    [Documentation]    sceneName: 更新出价（单个/批量）
+test_SaveContract
+    [Documentation]    sceneName: SaveContract
     ...
-    ...    path: /cpc/jz/updateBid
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    updateBid
+    ...    method: post
+    [Tags]    savecontract
     # 测试场景
-    ${testScene}    Set Variable    updateBid
+    ${testScene}    Set Variable    SaveContract
     # 执行测试
     执行测试    ${testScene}
 
-test_updateBudget
-    [Documentation]    sceneName: 更新预算（单个/批量）
+test_GetTransactions
+    [Documentation]    sceneName: GetTransactions
     ...
-    ...    path: /cpc/jz/updateBudget
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    updateBudget
+    ...    method: post
+    [Tags]    gettransaction
     # 测试场景
-    ${testScene}    Set Variable    updateBudget
+    ${testScene}    Set Variable    GetTransactions
     # 执行测试
     执行测试    ${testScene}
 
-test_updateSchedule
-    [Documentation]    sceneName: 更新日程（单个/批量）
+test_GetStats
+    [Documentation]    sceneName: GetStats
     ...
-    ...    path: /cpc/jz/updateSchedule
+    ...    path:
     ...
-    ...    method: get
-    ...
-    [Tags]    updateSchedule
+    ...    method: post
+    [Tags]    getStats
     # 测试场景
-    ${testScene}    Set Variable    updateSchedule
+    ${testScene}    Set Variable    GetStats
     # 执行测试
     执行测试    ${testScene}
 
-test_updateAreas
-    [Documentation]    sceneName: 更新地区信息
+test_Ping
+    [Documentation]    sceneName: Ping
     ...
-    ...    path: /cpc/jz/updateArea
+    ...    path: /chaininfo
     ...
-    ...    method: get
-    ...
-    [Tags]    updateAreas
+    ...    method: post
+    [Tags]    getnodeinfo
     # 测试场景
-    ${testScene}    Set Variable    updateAreas
+    ${testScene}    Set Variable    Ping
     # 执行测试
     执行测试    ${testScene}
 
-test_updateCate
-    [Documentation]    sceneName: 更新类目信息
+test_GetChainInfo
+    [Documentation]    sceneName: GetChainInfo
     ...
-    ...    path: /cpc/jz/updateCate
+    ...    path: /chaininfo
     ...
-    ...    method: get
-    ...
-    [Tags]    updateCate
+    ...    method: post
+    [Tags]    getchaininfo
     # 测试场景
-    ${testScene}    Set Variable    updateCate
+    ${testScene}    Set Variable    GetChainInfo
     # 执行测试
     执行测试    ${testScene}
-
-test_case1
-    [Tags]    test1
-    log    hello world
-
-test_case2
-    [Tags]    test2
-    log    nihao

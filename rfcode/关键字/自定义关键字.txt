@@ -2,11 +2,11 @@
 Resource          ../配置信息/configIndex.txt
 Library           ../../pycode/Common_Excel.py
 Library           ../../pycode/Common_Exec.py
+Library           Collections
 
 *** Keywords ***
 获取请求头
-    ${dict_headers}    Create Dictionary    Host=${Host}    User-Agent=${User-Agent}    Accept=${Accept}    Accept-Language=${Accept-Language}    Accept-Encoding=${Accept-Encoding}
-    ...    Cookie=${Cookie}    Connection=${Connection}    Cache-Control=${Cache-Control}
+    ${dict_headers}    Create Dictionary    Host=${Host}    Content-Type=${Content-Type}
     Return From Keyword    ${dict_headers}
 
 执行测试

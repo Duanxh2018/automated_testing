@@ -1,4 +1,10 @@
-# coding: utf-8
+# encoding=utf-8
+import sys
+from imp import reload
+
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 import requests
 import os
 import time
@@ -15,15 +21,15 @@ def batch_Call(robot_testSuite, robot_testCase, testScene, caseNum, testCaseRepo
     :return:
     '''
     try:
-        for caseNo in range(caseNum):
+        for CaseNo in range(caseNum):
             testCase = ""
-            caseNo = caseNo + 1
-            testName = "testcase" + "_" + str(caseNo)
+            CaseNo = CaseNo + 1
+            testName = "testcase" + "_" + str(CaseNo)
             output_dir = "-d " + testCaseReportPath + "/result_{0}".format(testScene)  # 输出目录
             output_xml = "-o output_{0}_{1}.xml".format(testName, execTime)
             output_log = "-l log_{0}_{1}.html".format(testName, execTime)
             output_report = "-r report_{0}_{1}.html".format(testName, execTime)
-            variable = "-v caseNo:" + str(caseNo) + " -v testScene:" + testScene
+            variable = "-v caseNo:" + str(CaseNo) + " -v testScene:" + testScene
             testCase = "--test " + robot_testCase
             pybot_cmd = "pybot " + output_dir + " " + output_xml + " " + output_log + " " + output_report + " " + variable + " " +  " " + testCase + " " + robot_testSuite
             os.system(pybot_cmd)  # 执行pybot命令
@@ -94,11 +100,8 @@ def mergeReport(testScene, testCaseReportPath, execTime):
         return "Error: " + str(e)
 
 if __name__ == "__main__":
-    robotTestCase = "sendPostRequest"
-    robotTestSuite = r"E:/llf_58TestSuites/jz_webIntergration/robot_code/rfcode/send_Request.txt"
-    testScene = "weather"
-    testDataFile = "E:\\llf_58TestSuites\\jz_webIntergration\\robot_code\\testData\\testData.xlsx"
-    testCaseReportPath = "E:\\llf_58TestSuites\\jz_webIntergration\\robot_code\\report\\TestCaseReport"
-
-    # mergeReport(testScene, testCaseReportPath, getCurtime())
-    # cleanLogs(testScene, testCaseReportPath)
+    robotTestCase = "test_GetAccount"
+    robotTestSuite = r"D:/Officel/RFprojects/http_interface_auto/rfcode/batch_Request.txt"
+    testScene = "GetAccount"
+    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData1.xlsx"
+    testCaseReportPath = "D:\\Officel\\RFprojects\\http_interface_auto\\report\\TestCaseReport"

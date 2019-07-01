@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190629 15:48:38.336" generator="Robot 2.8.7 (Python 2.7.16 on win32)">
+<suite source="D:\Officel\RFprojects\http_interface_auto\rfcode\http_Request.txt" id="s1" name="http Request">
+<test id="s1-t1" name="sendHttpRequest">
+<kw type="kw" name="${method}, ${url}, ${CaseNo}, ${testName}, ${data}, ${expectCode}, ${expectCotent} = Common_Excel.Get Test Data">
+<doc>从excel中获取测试数据</doc>
+<arguments>
+<arg>${testDataFile}</arg>
+<arg>${testScene}</arg>
+<arg>${Host}</arg>
+<arg>${CaseNo}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${method} = post</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${url} = http://192.168.1.13:8093</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${CaseNo} = 12.0</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${testName} = 异常用例_请求的方法名为空_12.0</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${data} = {
+ "method": "",
+ "params": {"chainId":"1", "address":"0x2c7536e3605d9c16a7a3d7b1898e529396a65c23"}
+}</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${expectCode} = 200</msg>
+<msg timestamp="20190629 15:48:38.939" level="INFO">${expectCotent} = {"errMsg":"method undefiend"}</msg>
+<status status="PASS" endtime="20190629 15:48:38.939" starttime="20190629 15:48:38.803"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Set Test Documentation">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${testName}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.940" level="INFO">Set test documentation to:
+异常用例_请求的方法名为空_12.0</msg>
+<status status="PASS" endtime="20190629 15:48:38.940" starttime="20190629 15:48:38.940"></status>
+</kw>
+<kw type="kw" name="${headers} = 自定义关键字.获取请求头">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="${dict_headers} = Collections.Create Dictionary">
+<doc>Creates and returns a dictionary based on given items.</doc>
+<arguments>
+<arg>Host=${Host}</arg>
+<arg>Content-Type=${Content-Type}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.942" level="INFO">${dict_headers} = {'Host': u'192.168.1.13:8093', 'Content-Type': u'application/json'}</msg>
+<status status="PASS" endtime="20190629 15:48:38.942" starttime="20190629 15:48:38.942"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Return From Keyword">
+<doc>Returns from the enclosing user keyword.</doc>
+<arguments>
+<arg>${dict_headers}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.943" level="INFO">Returning from the enclosing user keyword.</msg>
+<status status="PASS" endtime="20190629 15:48:38.943" starttime="20190629 15:48:38.943"></status>
+</kw>
+<msg timestamp="20190629 15:48:38.944" level="INFO">${headers} = {'Host': u'192.168.1.13:8093', 'Content-Type': u'application/json'}</msg>
+<status status="PASS" endtime="20190629 15:48:38.943" starttime="20190629 15:48:38.941"></status>
+</kw>
+<kw type="kw" name="${actualCode}, ${actualContent} = Common_Exec.Send HttpRequest">
+<doc>发送http请求</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>${data}</arg>
+<arg>${headers}</arg>
+<arg>${method}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.954" level="INFO">${actualCode} = 200</msg>
+<msg timestamp="20190629 15:48:38.954" level="INFO">${actualContent} = {"errMsg":"method undefiend"}</msg>
+<status status="PASS" endtime="20190629 15:48:38.954" starttime="20190629 15:48:38.944"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${actualCode}</arg>
+<arg>${expectCode}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.955" level="INFO">Argument types are:
+&lt;type 'str'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20190629 15:48:38.955" starttime="20190629 15:48:38.955"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${actualContent}</arg>
+<arg>${expectCotent}</arg>
+</arguments>
+<msg timestamp="20190629 15:48:38.956" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20190629 15:48:38.956" starttime="20190629 15:48:38.955"></status>
+</kw>
+<doc>异常用例_请求的方法名为空_12.0</doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20190629 15:48:38.957" critical="yes" starttime="20190629 15:48:38.802"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20190629 15:48:38.957" starttime="20190629 15:48:38.336"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="http Request">http Request</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

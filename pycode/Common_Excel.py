@@ -1,6 +1,12 @@
-# coding: utf-8
+# -*- coding: utf-8 -*-
+import sys
+from imp import reload
+
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 import xlrd
-def getTestData(testDataFile, testScene, host, caseNo):
+def getTestData(testDataFile, testScene, host, CaseNo):
     '''
     从excel中获取测试数据
     :param testDataFile: 测试数据文件
@@ -10,7 +16,7 @@ def getTestData(testDataFile, testScene, host, caseNo):
     :param method: 请求方法
     :return: url，用例No，用例名称，请求参数，预期返回码，预期响应内容
     '''
-    caseNo = int(caseNo)
+    CaseNo = int(CaseNo)
     data = xlrd.open_workbook(testDataFile)
     table = data.sheet_by_name(testScene)
     cols = table.ncols
@@ -19,17 +25,20 @@ def getTestData(testDataFile, testScene, host, caseNo):
     url = "http://" + host + resource_path  # 访问的url
     method = table.cell(2, 1).value  # 请求方法
 
-    dict_params = {}
+    dict_params ={}
     for i in range(cols):
-        dict_params[table.cell(3, i).value] = table.cell(caseNo+3, i).value
+        dict_params[table.cell(3, i).value] = table.cell(CaseNo+3, i).value
 
-    caseNo = dict_params.pop("caseNo")
-    caseName = dict_params.pop("caseName")
-    expectCode = dict_params.pop("reponse_code")
+    CaseNo = dict_params.pop("CaseNo")
+    CaseDescription = dict_params.pop("Description")
+    data = dict_params.pop("body")
+    CaseName = dict_params.pop("CaseName")
+    expectCode = str(dict_params.pop("expect_code"))
     expectContent = dict_params.pop("expect_content")
-    testName = "TestCase" + caseNo + "_" + caseName
+    testName = str(CaseName) + "_" + str(CaseDescription) + "_" + str(CaseNo)
+    # print data
 
-    return method, url, caseNo, testName, dict_params, expectCode, expectContent
+    return method, url, CaseNo, testName, data, expectCode, expectContent
 
 def getTestCaseNum(testDataFile, testScene):
     '''
@@ -56,10 +65,10 @@ def getTestHttpMethod(testDataFile, testScene):
     return method
 
 if __name__ == "__main__":
-    testDataFile = "E:\\llf_58TestSuites\\jz_webIntergration\\robot_code\\testData\\testData.xlsx"
-    testScene = "getAreasByCityId"
-    host = "jingzhun.58.com"
-    method, url, caseNo, testName, dict_params, expectCode, expectContent = getTestData(testDataFile, testScene, host, 2)
+    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData1.xlsx"
+    testScene = "GetAccount"
+    host = "192.168.1.13:8093"
+    method, url, caseNo, testName, data, expectCode, expectContent = getTestData(testDataFile, testScene, host, 2)
     print(url)
     print(testName)
     # print(expectReuslt)
