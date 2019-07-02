@@ -65,7 +65,7 @@ def getTestHttpMethod(testDataFile, testScene):
     return method
 
 if __name__ == "__main__":
-    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData.xlsx"
+    testDataFile = "D:\\Officel\\RFprojects\\automated_testing\\testData\\testData.xlsx"
     testScene = "GetAccount"
     host = "192.168.1.13:8093"
     method, url, caseNo, testName, data, expectCode, expectContent = getTestData(testDataFile, testScene, host, 2)

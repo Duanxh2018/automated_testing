@@ -2,70 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2907d927-14ce-44a8-88a1-b360b1533178" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/http_interface_auto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/http_interface_auto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycode/Common_Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/Common_Excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pycode/Common_Exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/Common_Exec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/testHTTP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/testHTTP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_1_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_1_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_2_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_2_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_3_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_3_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_4_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_4_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_5_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_5_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_6_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_6_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_7_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_7_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_8_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/log_testcase_8_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_1_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_1_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_2_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_2_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_3_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_3_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_4_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_4_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_5_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_5_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_6_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_6_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_7_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_7_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_8_20180303175515.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/output_testcase_8_20180303175545.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_1_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_1_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_2_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_2_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_3_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_3_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_4_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_4_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_5_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_5_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_6_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_6_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_7_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_7_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_8_20180303175515.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getSecondCatesByFirstCateId/report_testcase_8_20180303175545.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/log_testcase_1_20180303175535.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/log_testcase_1_20180303175608.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/output_testcase_1_20180303175535.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/output_testcase_1_20180303175608.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/report_testcase_1_20180303175535.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_getUserStat/report_testcase_1_20180303175608.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/batch_Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/batch_Request.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/http_Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/http_Request.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/关键字/自定义关键字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/关键字/自定义关键字.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/配置信息/RequestHeaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/配置信息/RequestHeaders.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/配置信息/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/配置信息/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/getAllAreas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/testData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/testData.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,36 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/automated_testing$Common_Exec.coverage" NAME="Common_Exec Coverage Results" MODIFIED="1562032452356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/http_interface_auto$Common_Exec.coverage" NAME="Common_Exec Coverage Results" MODIFIED="1561787427768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/automated_testing$Common_Excel.coverage" NAME="Common_Excel Coverage Results" MODIFIED="1562032573212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/http_interface_auto$Common_Excel.coverage" NAME="Common_Excel Coverage Results" MODIFIED="1561792855359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2523">
-              <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
-              <folding>
-                <element signature="e#17#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding>
-                <element signature="e#24#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -116,12 +35,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pycode/Common_Exec.py" />
         <option value="$PROJECT_DIR$/pycode/Common_Excel.py" />
+        <option value="$PROJECT_DIR$/pycode/Common_Exec.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -132,38 +51,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="http_interface_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http_interface_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="automated_testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated_testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="http_interface_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http_interface_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="automated_testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated_testing" type="462c0819:PsiDirectoryNode" />
               <item name="pycode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="http_interface_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http_interface_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="automated_testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated_testing" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http_interface_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http_interface_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="rfcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http_interface_auto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http_interface_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,37 +157,37 @@
       <option name="presentableId" value="Default" />
       <updated>1561786972481</updated>
       <workItem from="1561786973813" duration="7303000" />
+      <workItem from="1562032221778" duration="386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7303000" />
+    <option name="totallyTimeSpent" value="7689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1724512" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21149674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,22 +208,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
+    <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2523">
-          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
+        <state relative-caret-position="277">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
-            <element signature="e#17#27#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
+    <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="477">
+          <caret line="104" column="28" lean-forward="true" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
           <folding>
-            <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#17#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

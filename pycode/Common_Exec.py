@@ -101,7 +101,7 @@ def mergeReport(testScene, testCaseReportPath, execTime):
 
 if __name__ == "__main__":
     robotTestCase = "test_GetAccount"
-    robotTestSuite = r"D:/Officel/RFprojects/http_interface_auto/rfcode/batch_Request.txt"
+    robotTestSuite = r"D:/Officel/RFprojects/automated_testing/rfcode/batch_Request.txt"
     testScene = "GetAccount"
-    testDataFile = "D:\\Officel\\RFprojects\\http_interface_auto\\testData\\testData.xlsx"
-    testCaseReportPath = "D:\\Officel\\RFprojects\\http_interface_auto\\report\\TestCaseReport"
+    testDataFile = "D:\\Officel\\RFprojects\\automated_testing\\testData\\testData.xlsx"
+    testCaseReportPath = "D:\\Officel\\RFprojects\\automated_testing\\report\\TestCaseReport"
