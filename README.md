@@ -1,3 +1,4 @@
 # robot framework + python实现http接口自动化测试框架
 
 用robot和python实现http接口自动化测试工具，测试数据存在excel表格中
+备注：文件py中的文件路径和配置信息中的文件路径均按实际项目位置填写
