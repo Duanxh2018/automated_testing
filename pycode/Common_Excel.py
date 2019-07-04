@@ -36,7 +36,9 @@ def getTestData(testDataFile, testScene, host, CaseNo):
     expectCode = str(dict_params.pop("expect_code"))
     expectContent = dict_params.pop("expect_content")
     testName = str(CaseName) + "_" + str(CaseDescription) + "_" + str(CaseNo)
-    # print data
+
+    expectContent = expectContent.encode('utf-8')
+    data = data.encode('utf-8')
 
     return method, url, CaseNo, testName, data, expectCode, expectContent
 
@@ -68,7 +70,9 @@ if __name__ == "__main__":
     testDataFile = "D:\\Officel\\RFprojects\\automated_testing\\testData\\testData.xlsx"
     testScene = "GetAccount"
     host = "192.168.1.13:8093"
-    method, url, caseNo, testName, data, expectCode, expectContent = getTestData(testDataFile, testScene, host, 2)
+    method, url, caseNo, testName, data, expectCode, expectContent = getTestData(testDataFile, testScene, host, 12)
     print(url)
+    print expectContent.encode('utf-8')
+    print data.encode('utf-8')
     print(testName)
     # print(expectReuslt)

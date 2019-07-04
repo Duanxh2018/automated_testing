@@ -12,6 +12,8 @@ sendHttpRequest
     Set Test Documentation    ${testName}
     # 请求头
     ${headers}    获取请求头
+    #打印body请求体
+    log    ${data}
     #根据method发送对应的http请求
     ${actualCode}    ${actualContent}    send_HttpRequest    ${url}    ${data}    ${headers}    ${method}
     # 响应码比对
