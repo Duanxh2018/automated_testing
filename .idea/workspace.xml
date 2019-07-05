@@ -3,52 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2907d927-14ce-44a8-88a1-b360b1533178" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/Common_Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/Common_Excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_10_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_11_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_12_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_13_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_14_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_1_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_2_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_3_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_4_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_5_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_6_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_7_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_8_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/log_testcase_9_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_10_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_11_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_12_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_13_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_14_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_1_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_2_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_3_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_4_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_5_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_6_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_7_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_8_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/output_testcase_9_20190629154827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_10_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_11_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_12_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_13_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_14_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_1_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_2_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_3_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_4_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_5_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_6_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_7_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_8_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/TestCaseReport/result_GetAccount/report_testcase_9_20190629154827.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/http_Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/http_Request.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfcode/配置信息/RequestHeaders.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rfcode/配置信息/RequestHeaders.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/testData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/testData.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +17,12 @@
     <SUITE FILE_PATH="coverage/http_interface_auto$Common_Excel.coverage" NAME="Common_Excel Coverage Results" MODIFIED="1561792855359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="522">
+              <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -79,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="2525">
               <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
               <folding>
                 <element signature="e#17#27#0" expanded="true" />
@@ -107,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -144,7 +98,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Projects_WorkSpace/Locusttest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -226,23 +180,24 @@
       <workItem from="1561786973813" duration="7303000" />
       <workItem from="1562032221778" duration="386000" />
       <workItem from="1562145472625" duration="7329000" />
+      <workItem from="1562232821036" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15018000" />
+    <option name="totallyTimeSpent" value="15641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35791758" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.51084596" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51084596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -261,32 +216,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pycode/Common_Excel.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pycode/Common_Excel.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pycode/Common_Excel.py</url>
-          <line>74</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pycode/Common_Excel.py</url>
-          <line>75</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/report/log.html">
@@ -316,22 +245,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
+    <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+        <state relative-caret-position="522">
+          <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
           <folding>
-            <element signature="e#17#27#0" expanded="true" />
+            <element signature="e#24#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/Common_Excel.py">
+    <entry file="file://$PROJECT_DIR$/pycode/Common_Exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="2525">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
           <folding>
-            <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#17#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
