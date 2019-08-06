@@ -69,7 +69,7 @@ def getTestHttpMethod(testDataFile, testScene):
 if __name__ == "__main__":
     testDataFile = "D:\\Officel\\RFprojects\\automated_testing\\testData\\testData.xlsx"
     testScene = "GetAccount"
-    host = "192.168.1.13:8093"
+    host = "192.168.1.13:8091"
     method, url, caseNo, testName, data, expectCode, expectContent = getTestData(testDataFile, testScene, host, 12)
     print(url)
     print expectContent.encode('utf-8')
